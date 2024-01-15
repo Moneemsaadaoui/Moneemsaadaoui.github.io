@@ -2,7 +2,7 @@
 
 const config = {
   github: {
-    username: 'moneemsaadaoui', // Your GitHub org/user name. (Required)
+    username: 'Moneemsaadaoui', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
     limit: 10, // How many projects to display.
     exclude: {
@@ -85,18 +85,18 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
-      title: 'Project Name',
+      title: 'Skinify',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Skin Care and Beauty App Powered by the latest AI technology 🤖',
+      imageUrl: 'https://skinify.ai/img/skinifyfull.png',
+      link: 'https://Skinify.ai',
     },
     {
-      title: 'Project Name',
+      title: 'S3 Caceis Investor service',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-      imageUrl: 'https://via.placeholder.com/250x250',
-      link: 'https://example.com',
+        'Banking Webportal for investor clients of Santander Caceis 💹',
+      imageUrl: 'https://www.s3caceis.com.br/images/logo.png',
+      link: 'https://www.s3caceis.com.br/',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
