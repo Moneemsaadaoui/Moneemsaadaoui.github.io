@@ -51,17 +51,17 @@ const config = {
   experiences: [
     {
       company: 'Pembeia',
-      position: 'Position',
-      from: 'September 2021',
+      position: 'Fullstack developer',
+      from: '2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: '',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'IdealPart/Santander',
+      position: 'Senior Front End Developer',
+      from: '2021',
+      to: '2023',
+      companyLink: 'x',
     },
   ],
   /* certifications: [
@@ -74,17 +74,12 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
-    },
-    {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
-    },
+      institution: 'ESSTHS',
+      degree: 'Bsc Degree in Computer Science',
+      from: '2014',
+      to: '2018',
+    }
+
   ],
 
   // To hide the `My Projects` section, keep it empty.
@@ -106,20 +101,21 @@ const config = {
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: '@contact.moneem', // to hide blog section, keep it empty
     limit: 2, // How many posts to display. Max is 10.
   },
-  googleAnalytics: {
-    id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
-  },
-  // Track visitor interaction and behavior. https://www.hotjar.com
-  hotjar: {
-    id: '',
-    snippetVersion: 6,
-  },
+  /*googleAnalytics: {
+   id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
+ },
+ // Track visitor interaction and behavior. https://www.hotjar.com
+ hotjar: {
+   id: '',
+   snippetVersion: 6,
+ },
+ */
   themeConfig: {
-    defaultTheme: 'wireframe',
+    defaultTheme: 'business',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -179,11 +175,7 @@ const config = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `Made with ❤️`,
 };
 
 export default config;
